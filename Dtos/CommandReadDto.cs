@@ -14,15 +14,6 @@ namespace Commander.Dtos
         public string Line { get; set; }
 
 
-        public CommandReadDto(int id, string howTo, string line)
-        {
-            Id = id;
-            HowTo = howTo;
-            Line = line;
-        }
-        public CommandReadDto()
-        {
-
-        }
+        
     }
 }

@@ -18,15 +18,6 @@ namespace Commander.Dtos
         [Required]
         public string Platform { get; set; }
 
-        public CommandCreateDto(string howTo, string line, string platform)
-        {
-            HowTo = howTo;
-            Line = line;
-            Platform = platform;
-        }
-        public CommandCreateDto()
-        {
-
-        }
+        
     }
 }

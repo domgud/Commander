@@ -17,15 +17,6 @@ namespace Commander.Dtos
         [Required]
         public string Platform { get; set; }
 
-        public CommandUpdateDto(string howTo, string line, string platform)
-        {
-            HowTo = howTo;
-            Line = line;
-            Platform = platform;
-        }
-        public CommandUpdateDto()
-        {
-
-        }
+       
     }
 }
